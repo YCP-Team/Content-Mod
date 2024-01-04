@@ -1,7 +1,9 @@
 package cmod;
 
+import cmod.content.cmodItems;
 import arc.*;
 import arc.util.*;
+import cmod.content.cmodItems;
 import mindustry.*;
 import mindustry.content.*;
 import mindustry.game.EventType.*;
@@ -30,6 +32,7 @@ public class ContentMod extends Mod{
 
     @Override
     public void loadContent(){
+        cmodItems.load();
         Log.info("Loading some example content.");
     }
 
