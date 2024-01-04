@@ -1,15 +1,8 @@
 displayName: "ContentMod"
-
 name: "content-mod"
-
 author: "tebeEbatNeMae"
-
 main: "cmod.ContentMod"
-
 description: "A Mindustry Java mod template."
-
 version: 1.0
-
 minGameVersion: 145
-
 java: true
