@@ -1,5 +1,6 @@
 package cmod;
 
+import cmod.content.cmodBlocks;
 import cmod.content.cmodItems;
 import arc.*;
 import arc.util.*;
@@ -32,6 +33,7 @@ public class ContentMod extends Mod{
 
     @Override
     public void loadContent(){
+        cmodBlocks.load();
         cmodItems.load();
         Log.info("Loading some example content.");
     }
